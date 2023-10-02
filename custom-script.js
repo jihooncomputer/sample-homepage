@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
     alertButton.addEventListener("click", function() {
         alert("Button clicked!");
     });
-
+ 
     // 이미지 변경
     const imageElement = document.getElementById("change-image");
     const originalImageSrc = imageElement.src;
